@@ -1,9 +1,5 @@
-# React TypeScript Starter Pack
+# React Task management app
 
-To use this template click `Use this template`
+- [DEMO](https://andrii-medintsev.github.io/react_task-management-app-portfolio/)
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+Enhance your productivity and increase you efficiency  with dynamic todo-app. Add, edit, filter, mark as complete and delete your daily tasks that lead you step by step to your goals. Written using React(React  Hooks, React Router), Typescript, Fetch, REST API

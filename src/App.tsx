@@ -16,7 +16,7 @@ import {
   updateTodoTitle,
 } from './api';
 
-const USER_ID = 4;
+const USER_ID = 3;
 
 export const App: React.FC = () => {
   const nodeRef = useRef(null);
@@ -222,7 +222,7 @@ export const App: React.FC = () => {
           {!userName
             ? (
               <h1 className="no-user">tasks</h1>
-            ) : <h1>{`${userName}'s tasks`}</h1>}
+            ) : <h1 className="todoapp__title">{`${userName}'s tasks`}</h1>}
 
           <Header
             newTodoTitle={newTodoTitle}
